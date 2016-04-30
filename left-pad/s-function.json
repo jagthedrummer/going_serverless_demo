@@ -21,7 +21,10 @@
       "apiKeyRequired": false,
       "requestParameters": {},
       "requestTemplates": {
-        "application/json": ""
+        "application/json": {
+          "string":  "$input.params('string')",
+          "padding": "$input.params('padding')"
+        }
       },
       "responses": {
         "400": {
