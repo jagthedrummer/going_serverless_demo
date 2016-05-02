@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+echo "Testing Ruby!"
+./mruby -e "puts 'Hello, Lambda from Ruby!'"
